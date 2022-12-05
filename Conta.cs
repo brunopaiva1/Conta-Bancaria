@@ -20,7 +20,10 @@ namespace consoleTeste.sistema
             Saldo += valor;
         }
         public void Sacar(decimal valor){
+            if(valor <= Saldo)
             Saldo -= valor;
+            else
+            Console.WriteLine("Saldo insuficiente para realizar o saldo desejado");
         }
         
     }
