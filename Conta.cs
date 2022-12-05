@@ -19,7 +19,7 @@ namespace consoleTeste.sistema
         public void Depositar(decimal valor){
             Saldo += valor;
         }
-        public void Sacar(decimalvalor){
+        public void Sacar(decimal valor){
             Saldo -= valor;
         }
         
