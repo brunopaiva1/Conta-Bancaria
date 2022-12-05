@@ -19,7 +19,19 @@ namespace consoleTeste
             Nome = "Bruno Victor"
             };
 
-            Console.WriteLine("Saldo atual: ", conta.VerSaldo());
+            Console.WriteLine($"Saldo atual:  { conta.VerSaldo()}");
+
+            conta.Depositar(200);
+
+            Console.WriteLine($"Saldo após deposito:  {conta.VerSaldo()}");
+
+            conta.Sacar(600);
+
+            Console.WriteLine($"Saldo após saque:  {conta.VerSaldo()}");
+
+            Coonsole.ReadKey();
+
+
         }
     }
 }
