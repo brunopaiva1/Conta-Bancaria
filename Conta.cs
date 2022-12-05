@@ -16,6 +16,12 @@ namespace consoleTeste.sistema
         public Decimal VerSaldo(){
             return Saldo;
         }
+        public void Depositar(decimal valor){
+            Saldo += valor;
+        }
+        public void Sacar(decimalvalor){
+            Saldo -= valor;
+        }
         
     }
     
