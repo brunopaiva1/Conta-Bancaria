@@ -3,7 +3,7 @@ using System;
 
 namespace consoleTeste
 {
-    public class program{
+    public class Program{
         public static void Main(string[] args){
             var conta = new Conta();
             conta.NomeConta = 'Conta Bancaria';
